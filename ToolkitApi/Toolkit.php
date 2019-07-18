@@ -88,7 +88,7 @@ class Toolkit
                                 'dataStructureIntegrity' => false, // New in 1.4.0. Specify true to preserve integrity of data structures. If false (default), explode inner values out of the ds.
                                 'arrayIntegrity' => false, // New in 1.4.0. Specify true to preserve integrity of arrays (to create true named arrays, not merely sequentially numbered elements).
                                 'customControl'  => '', // any string you want. Will be concatenated to control key string after a single space.
-                                'transportType'  => 'ibm_db2', // can override in getInstance constructor as well
+                                'transportType'  => 'odbc', // can override in getInstance constructor as well
                                 'httpTransportUrl' => '', // for HTTP REST transport
                                 'timeReport'      => false, // *fly or *nofly; if true, return tick counts instead of data.
     );
